@@ -1,8 +1,10 @@
 # StructCopyMacro
 
+[![Test](https://github.com/nekowen/StructCopyMacro/actions/workflows/run-test.yml/badge.svg)](https://github.com/nekowen/StructCopyMacro/actions/workflows/run-test.yml)
+
 Swift macros automatically generates a copy function that can modify structure properties.
 
-# Usage
+## Usage
 
 Annotate a struct with `@AddCopy`. it will add a copy function and dedicated Enum used in the argument to inline structure.
 
